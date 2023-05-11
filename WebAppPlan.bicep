@@ -3,7 +3,7 @@ param name string
 
 
 resource appServicePlan 'Microsoft.Web/serverfarms@2020-12-01' = {
-  name: 'name'
+  name: name
   location: location
   sku: {
     name: 'B1'
