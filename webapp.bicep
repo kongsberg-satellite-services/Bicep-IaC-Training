@@ -4,7 +4,7 @@ param location string = resourceGroup().location
 module AppPlanDeploy 'WebAppPlan.bicep' = {
   name: 'AppPlanDeploy'
   params:{
-    name:'${namingPrefix}-asp'
+    name:'${namingPrefix}-asp2'
     location: location
   }
 }
