@@ -20,5 +20,5 @@ jobs:
         subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
         resourceGroupName: ${{ secrets.AZURE_RG }}
         template: ./webapp.bicep
-        parameters: 'namingPrefix=GAB23'
+        parameters: 'namingPrefix=KSATBicep'
         failOnStdErr: false
